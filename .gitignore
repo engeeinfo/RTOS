@@ -1,0 +1,23 @@
+# Editor and OS noise
+.DS_Store
+*~
+.#*
+.vscode/
+.idea/
+
+# Build output
+build/
+out/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Test and coverage output
+coverage/
+.cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
